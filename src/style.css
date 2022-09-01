@@ -1,0 +1,39 @@
+/* @font-face {
+  font-family: "SpaceMono-Regular";
+  src: url("./assets/fonts/SpaceMono-Regular.ttf") format("opentype");
+} */
+
+@font-face {
+  font-family: "TT-Hoves-Regular";
+  src: url("./assets/fonts/TTHovesRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TT-Hoves-Medium";
+  src: url("./assets/fonts/TTHovesMedium.otf") format("opentype");
+}
+.article-image {
+  padding: 0;
+}
+html,
+body {
+  background: #ffffff;
+}
+
+html,
+body,
+div,
+span,
+*,
+a,
+input,
+button,
+li {
+  font-family: "TT-Hoves-Regular sans-serif";
+  font-size: 20px;
+  color: #111111;
+}
+
+p {
+  font-size: 20px;
+}

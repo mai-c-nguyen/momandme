@@ -1,0 +1,36 @@
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+.first-header-group,
+.second-header-group {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  padding: 40px 20px;
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+
+.tabs-underlined .tab-underlined {
+  color: black;
+  padding: 8px;
+  margin: 8px;
+  opacity: 0.7;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  background: transparent;
+}

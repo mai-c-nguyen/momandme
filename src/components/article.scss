@@ -1,0 +1,71 @@
+.card {
+  border: none;
+  width: 100%;
+}
+.article-title {
+  font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #000;
+  max-width: 595px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.article-subtitle {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 1.8px;
+  color: #000;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+.article-date {
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.article-image {
+  padding: 0 !important;
+}
+
+.article-content {
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  line-height: 30px;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.reading-comment {
+  margin: auto;
+  overflow: auto;
+  display: flex;
+}
+
+.reading,
+.comment {
+  text-decoration: none;
+  color: #000000;
+  width: 186px;
+  padding: 8px 10px;
+  text-align: center;
+
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 1.4px;
+}
+.reading {
+  float: left;
+  border: 1px solid #ec3a23;
+}
+.comment {
+  float: right;
+}
