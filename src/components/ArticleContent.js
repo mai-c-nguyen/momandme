@@ -32,13 +32,6 @@ const ArticleContent = () => {
           <ArticleContentOptions />
         </Row>
       </Row>
-
-      {/* <Row className="pt-4">
-        <Col xs="3">PREVIOUS ARTICLE</Col>
-        <Col className="alignright" xs="9">
-          NEXT ARTICLE
-        </Col>
-      </Row> */}
     </Container>
   );
 };
